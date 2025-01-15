@@ -1,0 +1,141 @@
+/* Estilo global */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h2, h3 {
+    color: #00bcd4;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #00bcd4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Secciones */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid #333;
+}
+
+section:last-child {
+    border-bottom: none;
+}
+
+/* Botón selector de idioma */
+select {
+    margin: 20px;
+    padding: 8px 12px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    font-size: 16px;
+    float: right;
+}
+
+select:focus {
+    outline: none;
+    border-color: #00bcd4;
+}
+
+/* Tarjetas de proyectos */
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(33.333% - 20px);
+    background-color: #1e1e1e;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    color: #e0e0e0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 188, 212, 0.3);
+}
+
+.project-card a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #00bcd4;
+    margin-bottom: 10px;
+}
+
+.project-card p {
+    font-size: 14px;
+    color: #b0b0b0;
+    margin: 0;
+}
+
+/* Ajustar tamaño de los logos */
+.logos img {
+    width: 150px; /* Ajusta el tamaño de las imágenes */
+    height: 150px; /* Mantén un tamaño consistente */
+    margin: 10px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.logos img:hover {
+    transform: scale(1.2); /* Efecto de agrandamiento al pasar el mouse */
+}
+
+/* Estilo para los enlaces de contacto */
+#contacto {
+    text-align: center; /* Centrar todos los elementos dentro de la sección */
+    margin-top: 20px;
+}
+
+#contacto a {
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 22px; /* Agranda el texto */
+    font-weight: bold;
+    color: #00bcd4;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#contacto a:hover {
+    transform: scale(1.3); /* Agranda el texto al hacer hover */
+    color: #ffffff; /* Cambia el color al pasar el mouse */
+}
+
+
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .project-card {
+        width: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 480px) {
+    .project-card {
+        width: 100%;
+    }
+}

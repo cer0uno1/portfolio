@@ -1,0 +1,24 @@
+{
+    "es": {
+        "acercade-titulo": "Acerca de mí:",
+        "saludo": "¡Hola!",
+        "acercade-descripcion": "Soy Sebastián Errecalde. Soy Técnico Universitario en Programación, graduado de la Universidad Tecnológica Nacional. También, he realizado un curso de QA Testing dictado por la UTN BA para complementar mis habilidades técnicas y asegurar que cada proyecto en el que participo cumpla con los más altos estándares de calidad. <br><br> Mi objetivo es crecer profesionalmente dentro del área de IT, participando en diversos proyectos en donde pueda poner a prueba todos mis conocimientos.",
+        "lenguajes": "Lenguajes:",
+        "herramientas": "Herramientas:",
+        "proyectos-titulos": "Mis proyectos:",
+        "proyectos-descripcion": "Estos son algunos de los proyectos que fui creando durante mi cursada universitaria:",
+        "contactar": "Contactarme:",
+        "correo": "Correo"
+    },
+    "en": {
+        "acercade-titulo": "About Me",
+        "saludo": "Hello!",
+        "acercade-descripcion": "I'm Sebastián Errecalde. I'm a University Programming Technician, graduated from the National Technological University. I have also completed a QA Testing course offered by UTN BA to complement my technical skills and ensure that every project I participate in meets the highest quality standards.<br><br>My goal is to grow professionally in the IT field, participating in various projects where I can put all my knowledge to the test.",
+        "lenguajes": "Languages:",
+        "herramientas": "Tools:",
+        "proyectos-titulos": "My Projects:",
+        "proyectos-descripcion": "These are some of the projects I created during my university studies:",
+        "contactar": "Contact Me:",
+        "correo": "Email"
+      }
+}
